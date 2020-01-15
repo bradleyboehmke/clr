@@ -1,0 +1,29 @@
+Package: clr
+Version: 0.0.0.9001
+Title: Cyclic Learning Rate
+Description: Enhances the R Keras package by providing the cyclic learing rate
+  functionality developed by Leslie N. Smith (2017) <https://arxiv.org/abs/1506.01186>.
+Authors@R: person(given = "Bradley", 
+                  family = "Boehmke",
+                  email = "bradleyboehmke@gmail.com", 
+                  role = c("aut", "cre"),
+                  comment = c(ORCID = "0000-0002-3611-8516")
+                  )
+License: CC0
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+RoxygenNote: 6.1.1
+Imports: 
+    checkmate,
+    ggplot2,
+    graphics,
+    keras,
+    R6,
+    rlang,
+    tensorflow
+Suggests: 
+    testthat,
+    covr
+URL: https://github.com/bradleyboehmke/clr
+BugReports: https://github.com/bradleyboehmke/clr/issues
